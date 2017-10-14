@@ -18,6 +18,7 @@
 		4FC9756C1F926EE0000162BF /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9756A1F926EE0000162BF /* Expense+CoreDataProperties.swift */; };
 		4FC975731F929320000162BF /* AmountViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975721F929320000162BF /* AmountViewCell.swift */; };
 		4FC975751F92938B000162BF /* CheckboxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975741F92938B000162BF /* CheckboxViewCell.swift */; };
+		4FC975771F92963C000162BF /* BudgetInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975761F92963C000162BF /* BudgetInfoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4FC9756A1F926EE0000162BF /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4FC975721F929320000162BF /* AmountViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountViewCell.swift; sourceTree = "<group>"; };
 		4FC975741F92938B000162BF /* CheckboxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxViewCell.swift; sourceTree = "<group>"; };
+		4FC975761F92963C000162BF /* BudgetInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetInfoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4F2309061F91CF9700419B4E /* CustomNavVC.swift */,
+				4FC975761F92963C000162BF /* BudgetInfoTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				4FC9756C1F926EE0000162BF /* Expense+CoreDataProperties.swift in Sources */,
 				4FC9756B1F926EE0000162BF /* Expense+CoreDataClass.swift in Sources */,
 				4FC975611F926C39000162BF /* CoreDataSingleton.swift in Sources */,
+				4FC975771F92963C000162BF /* BudgetInfoTableViewController.swift in Sources */,
 				4F2309051F91CF9700419B4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
