@@ -12,7 +12,7 @@
         <!--Analytics-->
         <scene sceneID="6YN-Mq-cRk">
             <objects>
-                <viewController id="Dic-PN-f6s" userLabel="Analytics" sceneMemberID="viewController">
+                <viewController id="Dic-PN-f6s" userLabel="Analytics" customClass="CustomNavVC" customModule="TrackMyBudget" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPe-E6-kN5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
         <!--Edit Info-->
         <scene sceneID="BjZ-cG-jLr">
             <objects>
-                <viewController id="zHD-3R-JxY" userLabel="Edit Info" sceneMemberID="viewController">
+                <viewController id="zHD-3R-JxY" userLabel="Edit Info" customClass="CustomNavVC" customModule="TrackMyBudget" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3e5-76-WQT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--History-->
         <scene sceneID="QSv-Yw-YjS">
             <objects>
-                <viewController id="4c8-EP-cGs" userLabel="History" sceneMemberID="viewController">
+                <viewController id="4c8-EP-cGs" userLabel="History" customClass="CustomNavVC" customModule="TrackMyBudget" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="afB-8a-j7P">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Dashboard-->
         <scene sceneID="hlJ-8r-g1T">
             <objects>
-                <viewController id="24k-7p-XSN" userLabel="Dashboard" sceneMemberID="viewController">
+                <viewController id="24k-7p-XSN" userLabel="Dashboard" customClass="CustomNavVC" customModule="TrackMyBudget" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XBU-hm-QfB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
