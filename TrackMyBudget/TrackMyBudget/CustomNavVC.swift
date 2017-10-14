@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomNavVC.swift
 //  TrackMyBudget
 //
 //  Created by Prabhav Chawla on 10/14/17.
@@ -8,17 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CustomNavVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ViewController.add))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(CustomNavVC.manualAdd))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(CustomNavVC.cameraAdd))
+        
+        self.navigationItem.leftBarButtonItem?.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
     }
     
-    @objc func startOver() {
-        // NavigationController provides reference to the NavigationController
-        self.navigationController?.popToRootViewController(animated: true) // go back to root
+    @objc func manualAdd() {
+        // TO DO
+    }
+    
+    @objc func cameraAdd() {
+        // TO DO
     }
 }
 
