@@ -21,6 +21,7 @@
 		4FC975731F929320000162BF /* AmountViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975721F929320000162BF /* AmountViewCell.swift */; };
 		4FC975751F92938B000162BF /* CheckboxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975741F92938B000162BF /* CheckboxViewCell.swift */; };
 		4FC975771F92963C000162BF /* BudgetInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC975761F92963C000162BF /* BudgetInfoTableViewController.swift */; };
+		51765AA11F931B610042FAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51765AA01F931B610042FAA1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4FC975721F929320000162BF /* AmountViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountViewCell.swift; sourceTree = "<group>"; };
 		4FC975741F92938B000162BF /* CheckboxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxViewCell.swift; sourceTree = "<group>"; };
 		4FC975761F92963C000162BF /* BudgetInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetInfoTableViewController.swift; sourceTree = "<group>"; };
+		51765AA01F931B610042FAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Assets.xcassets/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				4F23090D1F91CF9700419B4E /* LaunchScreen.storyboard */,
 				4F2309081F91CF9700419B4E /* Main.storyboard */,
+				51765AA01F931B610042FAA1 /* ViewController.swift */,
 				4F23090B1F91CF9700419B4E /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51765AA11F931B610042FAA1 /* ViewController.swift in Sources */,
 				4F2309071F91CF9700419B4E /* CustomNavVC.swift in Sources */,
 				4FC975641F926CC8000162BF /* DataModel.xcdatamodeld in Sources */,
 				4FC44FF31F931F2100F05D16 /* Expense+CoreDataClass.swift in Sources */,
