@@ -3,9 +3,8 @@
     <entity name="Expense" representedClassName="Expense" syncable="YES">
         <attribute name="amount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Expense" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Expense" positionX="-63" positionY="-18" width="128" height="75"/>
     </elements>
 </model>

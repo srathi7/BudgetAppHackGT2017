@@ -2,7 +2,7 @@
 //  Expense+CoreDataProperties.swift
 //  TrackMyBudget
 //
-//  Created by Prabhav Chawla on 10/14/17.
+//  Created by Prabhav Chawla on 10/15/17.
 //  Copyright © 2017 Prabhav Chawla. All rights reserved.
 //
 //
@@ -19,6 +19,5 @@ extension Expense {
 
     @NSManaged public var amount: Double
     @NSManaged public var date: NSDate?
-    @NSManaged public var descript: String?
 
 }

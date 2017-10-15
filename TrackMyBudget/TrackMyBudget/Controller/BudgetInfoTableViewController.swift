@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BudgetInfoTableViewController: UITableViewController {
+class BudgetInfoTableViewController: CustomNavTableVC, UIGestureRecognizerDelegate {
     
     let section = ["Monthly Budget", "Categories"]
     let categories = ["Transport", "Groceries", "Coffee", "Alcohol", "GoingOut", "PhoneBill", "Shopping", "Miscellaneous"]
@@ -17,8 +17,8 @@ class BudgetInfoTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let arr = UserDefaults.standard.value(forKey: "categoriesCheckedStatus") as? [String:Bool] {
-            BudgetInfoTableViewController.categoriesCheckedStatus = arr
+        if let dict = UserDefaults.standard.value(forKey: "categoriesCheckedStatus") as? [String:Bool] {
+            BudgetInfoTableViewController.categoriesCheckedStatus = dict
         } else {
             for category in categories {
                 BudgetInfoTableViewController.categoriesCheckedStatus[category] = false
@@ -27,6 +27,17 @@ class BudgetInfoTableViewController: UITableViewController {
         
         tableView.tableFooterView = UIView(frame: .zero)
         tableView.allowsSelection = false
+        
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleSingleTap(_:)))
+        tapRecognizer.delegate = self
+        view.addGestureRecognizer(tapRecognizer)
+    }
+    
+    @objc func handleSingleTap(_ recognizer: UITapGestureRecognizer) {}
+    
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
+        view.endEditing(true)
+        return true
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
