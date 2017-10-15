@@ -1,5 +1,5 @@
 //
-//  CustomNavVC.swift
+//  CustomNavTableVC.swift
 //  TrackMyBudget
 //
 //  Created by Prabhav Chawla on 10/14/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomNavVC: UIViewController {
+class CustomNavTableVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,4 +28,3 @@ class CustomNavVC: UIViewController {
         // TO DO
     }
 }
-
